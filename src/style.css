@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif; */
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.right {
+  padding: 4.8rem;
+  padding-left: 7rem;
+}
+
+.homepage {
+  position: relative;
+}
+
+.left {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #0a0a0a;
+}
+
+.motivationBox {
+  font-family: Neue Haas Grotesk Display Pro;
+  font-weight: 500;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: #fff;
+  width: 77.3rem;
+}
+
+.taskyTitle {
+  font-family: Neue Haas Grotesk Display Pro;
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 145%;
+  text-align: right;
+}
+
+.input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid #0a0a0a;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #0a0a0a;
+  padding-bottom: 1rem;
+}
+
+.input::placeholder {
+  color: #0a0a0a !important;
+  padding-bottom: 1rem;
+}
+
+.input:placeholder-shown {
+  color: #0a0a0a !important;
+  padding-bottom: 1rem;
+}
+
+.loginBox {
+  margin-top: 16.4rem;
+}
+
+.loginBtn {
+  margin-top: 7rem !important;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  background-color: #0a0a0a;
+}
+
+.loginToggle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.welcome {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  margin-top: 18.5rem;
+}
+
+.name {
+  text-align: right;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.addTaskBtn {
+  font-size: 36px;
+  line-height: 43px;
+  margin-top: 15.8rem;
+  text-align: right;
+}
+
+.popup {
+  width: 55rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 4rem 7rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.taskBox {
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+}
+
+.taskBox::-webkit-scrollbar {
+  display: none;
+}
+
+.task {
+  width: 100%;
+  padding-top: 5.8rem;
+  padding-bottom: 3.6rem;
+  border-bottom: 3px solid #f6ffef;
+  padding-left: 5rem;
+}
+
+.taskTitle {
+  font-family: Neue Haas Grotesk Display Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #f6ffef;
+  margin-bottom: 2rem;
+}
+
+.taskDescription {
+  font-size: 18px;
+  line-height: 22px;
+  color: #f6ffef;
+}
+
+.loginBtn {
+  padding: 1rem 3rem !important;
+  font-size: 2.4rem !important;
+}
